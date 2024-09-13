@@ -1,0 +1,29 @@
+
+.App{
+    margin: auto;
+    position: relative;
+    /* background-color: #f0f2f5; */
+    background-color: #F7FEFA;
+    border-radius: 0.75rem;
+    max-width: 500px;
+    width: 50%;
+    min-width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    overflow-y: scroll;
+}
+.App::-webkit-scrollbar {
+    display: none;
+}
+@media (width<500px) {
+    .App, nav{
+        min-width: 0px;
+        width: 100%;
+    }
+}
+h1{
+    font-size: 3rem;
+}
